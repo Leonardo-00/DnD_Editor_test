@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/leonardo/CLionProjects/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/leonardo/CLionProjects/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/leonardo/CLionProjects/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="executeTests">
+				<Option output="/home/leonardo/CLionProjects/test/executeTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/leonardo/CLionProjects/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 executeTests"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="executeTests/fast">
+				<Option output="/home/leonardo/CLionProjects/test/executeTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/leonardo/CLionProjects/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 executeTests/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/leonardo/CLionProjects/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/AbilityPrerequisite.cpp">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/AbilityPrerequisite.h">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Bonus.cpp">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Bonus.h">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/BonusFeat.cpp">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/BonusFeat.h">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Capacity.cpp">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Capacity.h">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Character.cpp">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Character.h">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Class.cpp">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Class.h">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Feat.cpp">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Feat.h">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Feature.cpp">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Feature.h">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/InheritanceExc.cpp">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/InheritanceExc.h">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Prerequisite.cpp">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Prerequisite.h">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Proficiency.cpp">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Proficiency.h">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Race.cpp">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Race.h">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Skill.cpp">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/DnD_Editor/Skill.h">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/test/main_test.cpp">
+			<Option target="executeTests"/>
+		</Unit>
+		<Unit filename="/home/leonardo/CLionProjects/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
